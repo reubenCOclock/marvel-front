@@ -1,0 +1,104 @@
+.img-cont {
+  height: 25px;
+  width: 50%;
+  flex: 1;
+}
+
+.character-info {
+  flex: 1;
+}
+
+.character-box {
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  height: 300px;
+}
+
+.character-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.flex-character-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex-character-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-top-pages {
+  margin-top: 10px;
+}
+
+.flex-pages-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-comic-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comic-box {
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.img-cont {
+  width: 50%;
+  height: 50px;
+}
+
+.img-container {
+  height: 50px;
+  width: 50%;
+  flex: 1;
+}
+
+.comic-description {
+  flex: 1;
+}
+
+.flex-items-character {
+  display: flex;
+
+  justify-content: center;
+}
+
+.character-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.input-type {
+  width: 200px;
+  height: 25px;
+  border: 1px solid black;
+}
