@@ -11,9 +11,12 @@ const Comics = props => {
 
   const [filteredCharacters, setFilteredCharacters] = useState([]);
   const getData = async () => {
-    let response = await axios.post("http://localhost:3001/getComics", {
-      page: page
-    });
+    let response = await axios.post(
+      "https://marvel-backrc.herokuapp.com/getComics",
+      {
+        page: page
+      }
+    );
     setComics(response.data.data.results);
   };
 

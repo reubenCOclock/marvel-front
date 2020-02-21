@@ -18,9 +18,12 @@ const Characters = props => {
   console.log(filteredCharacters.length);
 
   const getData = async () => {
-    const APIcharacters = await axios.post("http://localhost:3001/characters", {
-      page: page
-    });
+    const APIcharacters = await axios.post(
+      "https://marvel-backrc.herokuapp.com/characters",
+      {
+        page: page
+      }
+    );
     setCharacters(APIcharacters.data);
     setIsLoading(true);
   };

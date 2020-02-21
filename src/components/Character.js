@@ -9,9 +9,12 @@ const Character = props => {
   //let comicsCopy = [...comics];
   console.log(props.character);
   const getData = async () => {
-    let response = await axios.post("http://localhost:3001/returnComicInfo", {
-      id: props.character.id
-    });
+    let response = await axios.post(
+      "https://marvel-backrc.herokuapp.com/returnComicInfo",
+      {
+        id: props.character.id
+      }
+    );
     setComics(response.data.data.results);
 
     setIsLoading(true);
