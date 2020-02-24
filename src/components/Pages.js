@@ -10,6 +10,7 @@ const Pages = props => {
           <button
             onClick={() => {
               props.setPage(element);
+              props.setIsLoading(false);
             }}
           >
             {element}

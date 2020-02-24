@@ -126,7 +126,7 @@ const Characters = props => {
         </div>
 
         <div class="margin-top-pages">
-          <Pages setPage={setPage} />
+          <Pages setPage={setPage} setIsLoading={setIsLoading} />
         </div>
       </>
     );
