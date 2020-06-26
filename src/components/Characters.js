@@ -19,7 +19,7 @@ const Characters = props => {
 
   const getData = async () => {
     const APIcharacters = await axios.post(
-      "https://marvel-backrc.herokuapp.com/characters",
+      "http://localhost:3001/characters",
       {
         page: page
       }

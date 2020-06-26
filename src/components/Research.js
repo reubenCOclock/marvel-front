@@ -16,7 +16,7 @@ const Research = props => {
 
           console.log("searchWord======>" + props.searchedWord);
           const searchedWordResult = await axios.post(
-            "https://marvel-backrc.herokuapp.com/searchCharacterByName",
+            "http://localhost:3001/searchCharacterByName",
             { searchedWord: searchVal }
           );
           props.setSearchedWord(searchVal);

@@ -10,7 +10,7 @@ const Character = props => {
   console.log(props.character);
   const getData = async () => {
     let response = await axios.post(
-      "https://marvel-backrc.herokuapp.com/returnComicInfo",
+      "http://localhost:3001/returnComicInfo",
       {
         id: props.character.id
       }
