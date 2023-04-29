@@ -14,7 +14,8 @@ function App() {
   const [character, setCharacter] = useState([]);
   //const [page, setPage] = useState(1);
   const getData = async () => {
-    console.log("The Get Data Function Has Been Called!!")
+    console.log("The Get Data Function Has Been Called!!");
+    console.log("Another time, I am going to console.log that the get Data function has been called!!");
     setIsLoading(true);
   };
 
